@@ -1,0 +1,32 @@
+.video__duration {
+  max-width: 55px;
+  font-family: Inter-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  margin: auto auto 0 30px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .video__duration {
+    margin: 0px auto 10px 24px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .video__duration {
+    margin: 0px auto 10px 24px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .video__duration {
+    margin: 0 auto 0 16px;
+  }
+}

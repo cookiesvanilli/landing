@@ -1,0 +1,26 @@
+.comments__container {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .comments__container {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    width: calc(100% - 48px);
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments__container {
+    width: 100%;
+    margin: 0;
+  }
+}

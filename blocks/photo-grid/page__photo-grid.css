@@ -1,0 +1,9 @@
+.page__photo-grid {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1025px) {
+  .page__photo-grid {
+    margin-bottom: 102px;
+  }
+}

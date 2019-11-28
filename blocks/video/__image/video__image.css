@@ -1,0 +1,35 @@
+.video__image {
+  width: 100%;
+  min-height: 323px;
+  border-radius: 5px;
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .video__image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .video__image {
+    min-height: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .video__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__image {
+    width: 100%;
+    min-height: 192px;
+  }
+}

@@ -1,0 +1,21 @@
+.places__text {
+  
+  font-family: Inter-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  
+}
+@media screen and (max-width: 768px) {
+  .places__text {
+    grid-row: auto;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .places__text {
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+}

@@ -1,0 +1,11 @@
+.intro__content-right {
+  max-width: 283px;
+  font-family: Inter-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  margin: 0;
+  color: #ffffff;
+  border: 1px solid blue;
+}

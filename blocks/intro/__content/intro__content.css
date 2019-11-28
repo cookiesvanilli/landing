@@ -1,0 +1,13 @@
+.intro__content {
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  
+}
+@media screen and (max-width: 925px) {
+  .intro__content {
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
+}
+

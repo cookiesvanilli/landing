@@ -1,0 +1,28 @@
+.cover__cover-bg {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  z-index: 3;
+  display: block;
+  min-height: 594px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .cover__cover-bg {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__cover-bg {
+    min-height: 272px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__cover-bg {
+    min-height: 216px;
+  }
+}
